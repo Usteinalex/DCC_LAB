@@ -1,0 +1,10 @@
+name: analyse_dcc
+title:
+username:
+account: dcclab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 397833
+bundleId: 1527046
+url: https://dcclab.shinyapps.io/analyse_dcc/
+when: 1533847711.37726
