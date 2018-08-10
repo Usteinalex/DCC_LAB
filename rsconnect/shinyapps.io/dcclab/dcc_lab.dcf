@@ -1,0 +1,10 @@
+name: dcc_lab
+title:
+username:
+account: dcclab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 398339
+bundleId: 1528809
+url: https://koney.shinyapps.io/dcc_lab/
+when: 1533918628.27373

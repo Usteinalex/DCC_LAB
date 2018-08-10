@@ -126,8 +126,8 @@ server <- function(input, output) {
   
   output$ploter <- renderPlot({
     val<-input$num  
-    path1<-paste("C:/Users/YACOUBA.K/Documents/ESPACE_UBS/Semestre 2/Projet_tutore/REX_MANON_NEW/REX_ominiscient/REX_Complet_Omniscient_UBS_Sim_",val,".csv",sep="")
-    path2 <-paste("C:/Users/YACOUBA.K/Documents/ESPACE_UBS/Semestre 2/Projet_tutore/REX_MANON_NEW/REX_visible/REX_Complet_Visible_UBS_Sim_",val,".csv",sep="") 
+    path1<-paste("REX_MANON_NEW/REX_ominiscient/REX_Complet_Omniscient_UBS_Sim_",val,".csv",sep="")
+    path2 <-paste("REX_MANON_NEW/REX_visible/REX_Complet_Visible_UBS_Sim_",val,".csv",sep="") 
     
     if (input$categorie=="REX_ominiscient") {
       donnees<-read.csv(path1,header = T, sep=";")
@@ -312,8 +312,8 @@ server <- function(input, output) {
   
   output$tab<- renderDataTable({
     val<-input$num  
-    path1<-paste("C:/Users/YACOUBA.K/Documents/ESPACE_UBS/Semestre 2/Projet_tutore/REX_MANON_NEW/REX_ominiscient/REX_Complet_Omniscient_UBS_Sim_",val,".csv",sep="")
-    path2 <-paste("C:/Users/YACOUBA.K/Documents/ESPACE_UBS/Semestre 2/Projet_tutore/REX_MANON_NEW/REX_visible/REX_Complet_Visible_UBS_Sim_",val,".csv",sep="") 
+    path1<-paste("REX_MANON_NEW/REX_ominiscient/REX_Complet_Omniscient_UBS_Sim_",val,".csv",sep="")
+    path2 <-paste("REX_MANON_NEW/REX_visible/REX_Complet_Visible_UBS_Sim_",val,".csv",sep="") 
     
     if (input$categorie=="REX_ominiscient") {
       donnees<-read.csv(path1,header = T, sep=";")
@@ -335,8 +335,8 @@ server <- function(input, output) {
   #________________________________Partie statistiques____________________________________________    
   output$stat<-renderDataTable({
     val<-input$num  
-    path1<-paste("C:/Users/YACOUBA.K/Documents/ESPACE_UBS/Semestre 2/Projet_tutore/REX_MANON_NEW/REX_ominiscient/REX_Complet_Omniscient_UBS_Sim_",val,".csv",sep="")
-    path2 <-paste("C:/Users/YACOUBA.K/Documents/ESPACE_UBS/Semestre 2/Projet_tutore/REX_MANON_NEW/REX_visible/REX_Complet_Visible_UBS_Sim_",val,".csv",sep="") 
+    path1<-paste("REX_MANON_NEW/REX_ominiscient/REX_Complet_Omniscient_UBS_Sim_",val,".csv",sep="")
+    path2 <-paste("REX_MANON_NEW/REX_visible/REX_Complet_Visible_UBS_Sim_",val,".csv",sep="") 
     
     if (input$categorie=="REX_ominiscient") {
       donnees<-read.csv(path1,header = T, sep=";")
@@ -440,8 +440,8 @@ server <- function(input, output) {
 #_____________________ Estimation des parammètes alpha et beta et lambda
   output$estimation<-renderDataTable({
     val<-input$num  
-    path1<-paste("C:/Users/YACOUBA.K/Documents/ESPACE_UBS/Semestre 2/Projet_tutore/REX_MANON_NEW/REX_ominiscient/REX_Complet_Omniscient_UBS_Sim_",val,".csv",sep="")
-    path2 <-paste("C:/Users/YACOUBA.K/Documents/ESPACE_UBS/Semestre 2/Projet_tutore/REX_MANON_NEW/REX_visible/REX_Complet_Visible_UBS_Sim_",val,".csv",sep="") 
+    path1<-paste("REX_MANON_NEW/REX_ominiscient/REX_Complet_Omniscient_UBS_Sim_",val,".csv",sep="")
+    path2 <-paste("REX_MANON_NEW/REX_visible/REX_Complet_Visible_UBS_Sim_",val,".csv",sep="") 
     
     if (input$categorie=="REX_ominiscient") {
       donnees<-read.csv(path1,header = T, sep=";")
