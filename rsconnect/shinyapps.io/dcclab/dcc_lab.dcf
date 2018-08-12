@@ -5,6 +5,6 @@ account: dcclab
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 398339
-bundleId: 1528809
+bundleId: 1528866
 url: https://koney.shinyapps.io/dcc_lab/
-when: 1533918628.27373
+when: 1533920425.93397

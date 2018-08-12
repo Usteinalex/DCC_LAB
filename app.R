@@ -558,12 +558,11 @@ server <- function(input, output) {
   #  paste("Un processus de Poisson est dit homogène si la statistique du test de Kolmogorov-Smirnov sur la fonction de répartiton des interarrivées Kn=sup x dans R |Fn(t)−F(t)| > kn(α). On rejète alors l'hypothèse nulle i.e interarrivées exponentielles ou si p.values < α = ", input$alpha ," où kn(α) est lu dans la table des quantiles de la statistique de Kolmogorov-Smirnov.")
   })
   output$Accueil<-renderText({
-  paste0("DCC_LAB : Un Utilitaire SHINY pour la Modé-\t lisation et l'Analyse Statistique de Données de\t Défaillance de Cause Commune en Fiabilité\n
-DCC_LAB est un outil de modélisation et d'analyse en fiabilité qui permet l'automatisation du \t
-traitement des données de défaillances de causes communes. Il est développé par trois étudiants en master Data Science et Modélisation Statistique à l'Université de Bretagne Sud (UBS). \n 
-Ce logiciel propose des analyses pour les modèles classiquement utilisés dans\t l'industrie et  dans d'autres secteurs d'activités. \n
-DCC_LAB analyse les données en se basant sur une modélisation par le Processus de Poisson Homogène (PPH) ou Non Homogène Processus Power Law (PPL).Il propose un test graphique d'ajustement, un \t test d'homogénéité (Test de Kolmogorov-Smirnov,\t Test de Laplace) et une estimation des paramètres du modèle (Maximum de Vraisemblance ou Moindres Carrées).\n
-Il donne également un tableau de contingence\t croisant ordre de la défaillance et nature de\t celle-ci pour une chronique donnée.")  
+  paste0("DCC_LAB : Un Utilitaire SHINY pour la Modélisation et l'Analyse Statistique de Données de Défaillance de Cause Commune en Fiabilité
+DCC_LAB est un outil de modélisation et d'analyse en fiabilité qui permet l'automatisation du traitement des données de défaillances de causes communes. Il est développé par trois étudiants en master Data Science et Modélisation Statistique à l'Université de Bretagne Sud (UBS). 
+Ce logiciel propose des analyses pour les modèles classiquement utilisés dans l'industrie et  dans d'autres secteurs d'activités.
+DCC_LAB analyse les données en se basant sur une modélisation par le Processus de Poisson Homogène (PPH) ou Non Homogène Processus Power Law (PPL).Il propose un test graphique d'ajustement, un test d'homogénéité (Test de Kolmogorov-Smirnov,\t Test de Laplace) et une estimation des paramètres du modèle (Maximum de Vraisemblance ou Moindres Carrées).
+Il donne également un tableau de contingence croisant ordre de la défaillance et nature de celle-ci pour une chronique donnée.")  
     
   })
   
